@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&family=Zen+Maru+Gothic:wght@400;700&display=swap');
+
+:root {
+  --font-family-base: 'Rubik', 'Zen Maru Gothic', sans-serif;
+  --font-size-base: 16px;
+  --font-weight-base: 400;
+  --line-height-base: 1.5;
+  --color-basic: #6D758F;
+  --color-white: #fff;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-base);
+  line-height: var(--line-height-base);
+  color: var(--color-gray);
+  overflow-wrap: break-word;
+  background-color: var(--color-white);
+  text-size-adjust: 100%;
+}
+
+a {
+  color: var(--link-color-base);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:active,
+a:hover {
+  text-decoration: underline;
+  outline-width: 0;
+}
+
+a:visited {
+  color: var(--visited-color);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  color: inherit;
+}
+
+input{
+  font-size: 16px;
+}
+
+button,
+[type='button'],
+[type='reset'],
+[type='submit'],
+[role='button'] {
+  cursor: pointer;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+table{
+  border-spacing: 0;
+  border-collapse: collapse;
+  border: none;
+}
+
+th,td{
+  border: solid 1px var(--color-gray);
+}
